@@ -1,0 +1,8 @@
+{
+	"name": "ghost",
+	"description": "Meteor wrapper for Ghost blogging platform",
+	"homepage": "https://github.com/danielqiu/meteor-ghost",
+	"author": "Daniel Qiu",
+	"version": "0.0.1",
+	"git": "https://github.com/danielqiu/meteor-ghost.git"
+}

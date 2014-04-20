@@ -1,0 +1,1 @@
+ghost = Npm.require('ghost');
