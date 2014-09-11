@@ -5,9 +5,9 @@ Meteor smart package for [ghost](https://github.com/TryGhost/Ghost).
 
 #Usage
 
-Install package from Atmosphere:
+Install package from Meteor:
 ```
-mrt add ghost 
+meteor add mrt:ghost
 
 ```
 Run ghost in the server start-up:
