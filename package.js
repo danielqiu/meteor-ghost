@@ -1,5 +1,5 @@
 Package.describe({
-	name: "danielqiu:ghost",
+	name: "mrt:ghost",
 	summary: "Ghost blogging platform in meteor",
 	author: "Daniel Qiu",
 	version: "0.4.3",
@@ -9,7 +9,7 @@ Package.describe({
 Npm.depends({ghost: "0.4.2"});
 
 Package.on_use(function(api){
-	api.versionsFrom('METEOR-CORE@0.9.0');
+	api.versionsFrom('METEOR@0.9.1.1');
 	api.add_files(['ghost.js'], 'server', 'client');
 	if(api.export)
 		api.export('ghost');
