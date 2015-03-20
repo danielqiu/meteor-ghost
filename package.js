@@ -2,7 +2,7 @@ Package.describe({
 	name: "mrt:ghost",
 	summary: "Ghost blogging platform in meteor",
 	author: "Daniel Qiu",
-	version: "0.5.2",
+	version: "0.5.2.1",
 	git: "https://github.com/danielqiu/meteor-ghost.git"
 });
 
