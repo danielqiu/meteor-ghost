@@ -13,6 +13,9 @@ meteor add mrt:ghost
 Run ghost in the server start-up:
 ```
 ghost().then(function (ghostServer) {
+  var config = ghostServer.config;
+  // modify theme and config ...
+  
   ghostServer.start();
 });
 ```
